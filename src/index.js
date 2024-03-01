@@ -1,16 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import Teste from './Teste';
+// import App from './App';
+// import Teste from './Teste';
+import Novo from './Novo';
+import {Imagem} from './Novo';
+// import './aa.png';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Teste />
-    <App />
-    
+    {/* <Teste />
+    <App /> */}
+    <Novo />
+    <Imagem />
   </React.StrictMode>
 );
 
